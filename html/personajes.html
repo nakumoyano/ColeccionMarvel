@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/mlogo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/ed-grid.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/6d2ca076de.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <link rel="stylesheet" href="../assets/loader.svg"> -->
+    
+
+    <title>Marvel's Heroes</title>
+</head>
+<body><!-- Boton Arriba -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div> 
+    <header class="encabezado">
+        <nav class="navbar">
+            <div class="max-width">
+                <ul class="menu">
+                    <li><a href="index.html" >Inicio</a></li>
+                    <li><a href="tema.html">De qué trata..</a></li>
+                    <li><a href="personajes.html" >Personajes</a></li>
+                    <li><a href="historia.html" >Historia de Marvel</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <h1 class="main-title" style="color: white;padding: 40px;text-align: center;">Personajes de Marvel</h1>
+    <div class="input" >
+        <i class="fas fa-search"></i>
+        <input class="search-input" type="search" id="search" placeholder="¿Qué Personaje de Marvel estás buscando?">        
+    </div>
+
+    <div class="button-icon">
+        <button class="left"><i class="fas fa-arrow-circle-left"></i></button> 
+        <button class="right"><i class="fas fa-arrow-circle-right"></i></button>
+    </div>
+
+    <div id="content" class="ed-container"></div>
+    
+    <!-- esto es lo que agrego para tratar de hacer el paginado -->
+    
+
+    <footer>
+        <span>Creado por <strong style="cursor: auto; text-decoration: none;">Nahuel Moyano</strong> | <span class="far fa-copyright"></span>2021 Todos los derechos reservados.</span>
+    </footer>
+    
+    <script src="../js/md5.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
